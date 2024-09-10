@@ -9,7 +9,13 @@
   </head>
   <body>
     <div class='con'>
-      <h1>Witamy na Weselu Marty i Tomka!!</h1>
+      <div class='title_con'>
+        <div class='title_child'></div>
+        <div class='title_child'>
+          <p>Witamy na Weselu Marty i Tomka!!<p>
+        </div>
+        <div class='title_child'></div>
+      </div>
       <h2>Melanż trwa do rana</h2>
       <h3>Rozkład jazdy</h3>
       <a href='https://photos.app.goo.gl/NjqsXNMUNgpLHXLd8' target="_blank">Tutaj wrzuć zdjęcia</a>
@@ -45,6 +51,14 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
+      }
+      .title_con {
+        display: flex;
+        justify-content: center;
+      }
+      .title_child {
+      flex: 1;
+      margin: 0 10px;
       }
     </style>
     <script></script>
